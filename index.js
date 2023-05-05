@@ -97,7 +97,6 @@ async function sorting(sortBase) {
         sort("gender", sortable);
     }
     tableBody.innerHTML = '';
-    console.log(sortable);
     sortable.forEach((element) => {
         appendTableRows(element[1], tableBody);
     });
